@@ -1,0 +1,5 @@
+db = connect("cs193x_assign3");
+db.dropDatabase();
+db.students.insertOne({ id: 1, name: "Michael", age: 20 });
+db.students.insertOne({ id: 2, name: "Jane", age: 19 });
+db.students.insertOne({ id: 3, name: "Doe", age: 18 });
